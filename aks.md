@@ -1,7 +1,7 @@
 # AKS cheat sheet
 
-```
-# ssjjs
+```csharp
+// some
 kubectl config view
 
 kubectl cluster-info
