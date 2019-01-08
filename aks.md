@@ -43,6 +43,11 @@ kubectl logs <pod-name> -c <init-container-2>
 ```
 
 ```bash
+# scaling
+kubectl scale deployment <name> --replicas=3
+```
+
+```bash
 # helm 
 helm lint
 helm template ./<chartPath>
