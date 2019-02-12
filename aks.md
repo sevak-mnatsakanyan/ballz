@@ -23,6 +23,7 @@ az aks get-credentials --resource-group <clusterRG> --name <cluster>
 kubectl config view
 kubectl config get-contexts
 kubectl config use-context Cluster
+kubectl config set-context <cluster> --namespace=<namespace-name>
 
 # see status of the cluster
 kubectl cluster-info
