@@ -26,6 +26,7 @@ kubectl config use-context Cluster
 kubectl config set-context <cluster> --namespace=<namespace-name>
 
 # see status of the cluster
+kubectl api-versions
 kubectl cluster-info
 kubectl cluster-info dump
 
