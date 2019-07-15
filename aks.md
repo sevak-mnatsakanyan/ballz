@@ -16,6 +16,7 @@ az account clear
 ```bash
 # AKS
 az aks get-credentials --resource-group <clusterRG> --name <cluster>
+az aks get-versions --location westus2
 ```
 
 ```bash
@@ -36,6 +37,7 @@ kubectl get pods -n <namespace>
 kubectl describe pods -n <namespace>
 kubectl get pods -L app -n <namespace>
 kubectl get ingress -n <namespace>
+kubectl get nodes -o wide
 ```
 
 ```bash
