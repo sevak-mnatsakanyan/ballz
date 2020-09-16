@@ -80,6 +80,9 @@ az acr helm delete -n <registryname> <chartName> --version <version>
 docker ps -a
 docker images
 docker rmi <imagename>
+
+# remove all containers
+docker ps -aq | xargs -I% docker rm %
 ```
 
 ```bash
